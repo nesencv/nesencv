@@ -22,6 +22,7 @@ setup(
     entry_points={
         "console_scripts": [
             "nesencv.hello = nesencv.scripts.hello:hello",
+            "nesencv.new_pyenv = nesencv.scripts.new_pyenv:new_pyenv",
         ]
     },
     packages=packages,
